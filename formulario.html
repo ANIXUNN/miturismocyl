@@ -1,0 +1,64 @@
+
+<html>
+
+    <head>
+      <title>Formulario Turismo Castilla y León</title>
+    </head>
+
+    <body>
+
+      <h1><a href="INDEX.html">Formulario Turismo Catilla y León</a></h1>
+
+        <form action="programa.php" method="get">
+
+            <p>Nombre: <input type="text" name="nombre" maxlength="50" /></p>
+            
+            <p>Apellidos: <input type="text" name="apellidos" maxlength="50" /></p><form action=”programa.php” method=”get”></p>
+
+            <p>
+                <label for="pass">Contraseña</label>
+                <input type="password" id="pass" name="pass" required/>
+            </p>
+
+            <p>Sexo: <input type="radio" name="sexo" value="h" /> hombre <input type="radio" name="sexo" value="m" /> mujer</p>
+    
+                <label for="mail">Correo</label> 
+                <input type="email" id="mail" name="mail" placeholder="tucorreo@dominio.com" required/></br>
+    
+            <P>Cuál es la provincia que más te gusta de Castilla y León?</p>
+                <label for=”provincia” id=”provincia”>
+                    Población:
+                </label> 
+                <select name=”provincia”>
+
+                    <optgroup label=”Castilla y León”>
+                        <option value=”s”></option>
+                    </optgroup>
+
+                        <option value=”av”>Ávila</option>
+                        <option value=”bu”>Burgos</option>
+                        <option value=”l”>León</option>
+                        <option value=”p”>Palencia</option>
+                        <option value=”sg”>Segovia</option>
+                        <option value=”so”>Soria</option>
+                        <option value=”sa”>Salamanca</option>
+                        <option value=”va”>Valladolid</option>
+                        <option value=”za”>Zamora</option>
+                </select> 
+            </P>
+
+            <p>Después de ver la pág web ¿cuál es la ciudad que más te apece visitar y por qué? Indica brevemente:<br>
+                <textarea rows=”10” cols=”40” name=”texto”></textarea><br>
+                
+            </p>
+
+            <p><input type="checkbox" name="condiciones" /> No me ha gustado nada, se debería mejorar.</p>
+
+            <p><input type="submit" value="Enviar"/></p> 
+
+        </form>
+
+
+    <body>
+
+</html>
